@@ -1,5 +1,9 @@
 # Sunspot Prediction Model
-Sunspots are temporary phenomena on the Sun's photosphere that appear as spots darker than the surrounding areas. They are regions of reduced surface temperature caused by concentrations of magnetic field flux that inhibit convection. Sunspots usually appear in pairs of opposite magnetic polarity. Their number varies according to the approximately 11-year solar cycle. (Source: Wikipedia)
+![Sunspot Image](Sunspots_1302_Sep_2011_by_NASA.jpg)
+
+#### <i>Please go to [sunspot_prediction.ipynb](https://github.com/choyoon88/sunspot_prediction/blob/main/sunspot_prediction.ipynb) to see the training and testing. (cmd + mouse left click to open on a separate tab)</i>
+
+Sunspots are temporary phenomena on the Sun's photosphere that appear as spots darker than the surrounding areas. They are regions of reduced surface temperature caused by concentrations of magnetic field flux that inhibit convection. Sunspots usually appear in pairs of opposite magnetic polarity. Their number varies according to the approximately 11-year solar cycle. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Sunspot))
 
 ## Content
 
@@ -10,7 +14,7 @@ I have conducted a CNN-LSTM model to predict the monthly mean total number of su
 
 Predicting the future 100 steps with this model showed fairly acceptable result but there could be a room for improvement.
 
-I conducted another training using a Simple RNN, but the result didn't improve from our first model, so I didn't moved further more with the second model in prediction.
+I conducted another training using a Simple RNN, but the result didn't improve from our first model, so I didn't move further more with the second model in prediction.
 
 ## Acknowledgements
 
